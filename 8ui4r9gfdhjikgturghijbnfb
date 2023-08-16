@@ -1,0 +1,7 @@
+assert(antiafk, "Your exploit does not support Anti-Afk.")
+local UserInputService: UserInputService = game:GetService("UserInputService")
+local RunService: RunService = game:GetService("RunService")
+UserInputService.WindowFocusReleased:Connect(function()
+   RunService.Stepped:Wait()
+   pcall(antiafk, UserInputService.WindowFocused)
+end)
