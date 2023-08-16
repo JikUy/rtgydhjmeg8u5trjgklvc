@@ -1,0 +1,38 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Rocker", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("BTools", "Have Old ROBLOX Btools", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/657yghfdgb5rtbc'),true))()
+    end)
+
+    MainSection:NewButton("Anti-AFK", "Can't get kicked if you stay AFK", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/8ui4r9gfdhjikgturghijbnfb'),true))()
+    end)
+    MainSection:NewButton("FPS-Unlocker", "Make game uglier but no lags", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/87937trgeyuhjbf4v7836yufhgjbdenf874gyfhjbre87rf43fubhjednw0o9psiwdfjewoik'),true))()
+    end)
+
+    MainSection:NewButton("DEX", "See all infos of the game", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/894rgbhyiukdcnvjb8r9thuinjkfdcrfg09tjomhj589bnjimkolvbtr98iohnbkjlmf985t3'),true))()
+    end)
+
+    MainSection:NewButton("Invisible", "Become Invisible", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/y695uhnbijtkfevy754gfurebnf8745yuhinjkrey7gtu45hj'),true))()
+    end)
+
+    MainSection:NewButton("Teleport (CTRL+CLICK)", "Teleport AnyWhere!", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/grt54tgrg453'),true))()
+    end)
+
+    MainSection:NewButton("Magnetize", "Teleport You need to change variable", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/54ytrbgfvdvrevfdsxdsscfvvrbvf'),true))()
+    end)
+
+    MainSection:NewButton("Bypassed Fly", "bird mode", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/58y9hguidjkmfvu8ftrg9yhnij"))()
+
+        Fly(true)
+    end)
