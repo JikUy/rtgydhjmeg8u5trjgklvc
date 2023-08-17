@@ -1,0 +1,13 @@
+
+player = game:GetService("Players").LocalPlayer
+
+--Remove BodyVelocity to remove float
+if player.Character.HumanoidRootPart:FindFirstChild("Float") then
+    player.Character.HumanoidRootPart.Float:Destroy()
+--Insert BodyVelocity to add float
+else
+    local bodyVelocity = Instance.new("BodyVelocity")
+    --So we know what specific instance to remove when toggle off
+    bodyVelocity.Name = "Float"
+    bodyVelocity.Parent = player.Character.HumanoidRootPart
+end
