@@ -1,0 +1,138 @@
+local StealthMode = true
+game.StarterGui:SetCore("SendNotification", {Title="Racker"; Text="Checking for anti-cheat"; Duration=2;})
+game.StarterGui:SetCore("SendNotification", {Title="Racker"; Text="Loading."; Duration=2;})
+game.StarterGui:SetCore("SendNotification", {Title="Join the discord!"; Text="https://discord.gg/EpNQugyaJW"; Duration=10;})
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Rocker", "Ocean")
+    -- Category
+     --main
+    local Main = Window:NewTab("Universal")
+    local MainSection = Main:NewSection("Universal")
+     --games
+    local Fly = Window:NewTab("Games")
+    local FlySection = Fly:NewSection("Games")
+     --specials
+    local Fly2 = Window:NewTab("Specials")
+    local Fly2Section = Fly2:NewSection("Specials")
+     --broken
+    local Fly21 = Window:NewTab("Broken")
+    local Fly21Section = Fly21:NewSection("Broken")
+
+    --Buttons
+
+    MainSection:NewButton("BTools", "Have Old ROBLOX Btools", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/657yghfdgb5rtbc'),true))()
+    end)
+
+    MainSection:NewButton("Anti-AFK", "Can't get kicked if you stay AFK", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/8ui4r9gfdhjikgturghijbnfb'),true))()
+    end)
+    MainSection:NewButton("FPS-Unlocker", "Make game uglier but no lags", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/87937trgeyuhjbf4v7836yufhgjbdenf874gyfhjbre87rf43fubhjednw0o9psiwdfjewoik'),true))()
+    end)
+
+    MainSection:NewButton("DEX", "See all infos of the game", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/894rgbhyiukdcnvjb8r9thuinjkfdcrfg09tjomhj589bnjimkolvbtr98iohnbkjlmf985t3'),true))()
+    end)
+
+    MainSection:NewButton("Invisible", "Become Invisible", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/y695uhnbijtkfevy754gfurebnf8745yuhinjkrey7gtu45hj'),true))()
+    end)
+
+    MainSection:NewButton("Teleport (CTRL+CLICK)", "Teleport AnyWhere!", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/grt54tgrg453'),true))()
+    end)
+
+    MainSection:NewButton("Magnetize", "Teleport You need to change variable", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/54ytrbgfvdvrevfdsxdsscfvvrbvf'),true))()
+    end)
+
+   MainSection:NewButton("Fly V1", "Fly!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/54yt"))()
+    end)
+
+    MainSection:NewButton("Fly V2", "Fly!!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.cwwwwwwwwwwwwwwom/JikUy/rtgydhjmeg8u5trjgklvc/main/58y9hguidjkmfvu8ftrg9yhnij"))()
+        Fly(true)
+    end)
+
+   FlySection:NewButton("Sheriffs vs Murders Duels", "https://www.roblox.com/games/12355337193/Murderers-VS-Sheriffs-Duels", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/tgderfg98i54kg89iufdokmir9ioekjg"))()
+    end)
+
+   FlySection:NewButton("Big paintball autofarm", "https://www.roblox.com/games/3527629287/BIG-Paintball", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/drui95gthnb8usf794rbifvjkdnyfrtg45efvbshdajfsvjh"))()
+    end)
+
+   MainSection:NewButton("Sword", "Kill anyone forever", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/iorthubgn85utgoidjlg"))()
+    end)
+
+   MainSection:NewButton("Noclip V1", "Pass thru wall!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/trh"))()
+    end)
+
+   MainSection:NewButton("Super Sword", "Kill anyone forever", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/wtfrghbfdg"))()
+    end)
+
+   Fly2Section:NewButton("Penis R6", "Have a penis in r6", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/roplew-%5E%3Drlpoemgfdiklg"))()
+    end)
+
+   Fly2Section:NewButton("Suicide", "Kill yourself", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/45ytgrfuigvjer4fugtjdkmngf5rue4"))()
+    end)
+
+   MainSection:NewButton("Fly + Noclip", "Have a tool to Noclip and Fly at the same time", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/r4u3i9tgnjokdfml"))()
+    end)
+
+   MainSection:NewButton("Float", "Float in air", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/yh"))()
+    end)
+
+   MainSection:NewButton("Spin Fast", "Power=500", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin85ujgnkf"))()
+    end)
+
+   MainSection:NewButton("Spin Low", "Power=150", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin5498trhujnkmdfngyvu8regbhvfdj"))()
+    end)
+
+   MainSection:NewButton("Spin Super fast", "Power=1000", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin5498thurfidbgvcfuyfgerughbvd7yuhfbre7yufghvcbvuytrghjbvdc"))()
+    end)
+
+   MainSection:NewButton("Spin Super low", "Power=50", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin458gujhitfbngfudjgbnfd"))()
+    end)
+
+   MainSection:NewButton("Spin Mega fast", "Power=10000", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin6"))()
+    end)
+
+   MainSection:NewButton("Spin Mega low", "Power=5", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin5894397ry487truit"))()
+    end)
+
+   MainSection:NewButton("No Spin", "Power=0", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/spin0000000000000000000000000000000000000000000000000"))()
+    end)
+
+   MainSection:NewButton("Be a ball V1", "Become a ball!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/vfrghrt6hfcbtrgweasgv45rgdes"))()
+    end)
+
+   MainSection:NewButton("Be a ball V2", "Become a ball!!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/vfrghrt6hfcbtrgweasgv45rgdes"))()
+    end)
+
+   Fly21Section:NewButton("Left your body?", "LEFT YOUR BODYYY", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/vfrghrt6hfcbtrgweasgv45rgdes"))()
+    end)
+
+   Fly21Section:NewButton("Broken Reset (Q KEY)", "Press Q to broke your avatar", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JikUy/rtgydhjmeg8u5trjgklvc/main/vrl"))()
+    end)
+game.StarterGui:SetCore("SendNotification", {Title="Rocker"; Text="Loaded."; Duration=2;})
