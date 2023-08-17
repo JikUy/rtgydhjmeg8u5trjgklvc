@@ -8,7 +8,6 @@ local window = kavoUi.CreateLib("Muderer Vs Sheriff","Ocean")
  
 local Tab1 = window:NewTab("Main")
 local Tab1Section = Tab1:NewSection("Main")
-local Tab2 = window:NewTab("Credits")
  
 ---Buttons
  
